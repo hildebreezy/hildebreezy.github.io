@@ -5,7 +5,7 @@ body {
 }
 
 #hero {
-    padding: 2rem;
+    padding: 4rem;
     display: flex;
     width: 100%;
     align-items: center;
@@ -19,7 +19,7 @@ body {
 }
 
 #promo {
-    margin: 1rem 0;
+    margin: 1rem 0 0 0;
 }
 
 #promo-image {
@@ -33,16 +33,68 @@ body {
     background-size: cover;
     background-position: bottom center;
     display: flex;
-    align-items: center;
-    justify-content: start;
+    align-items: end;
+    justify-content: stretch;
 }
 
 #promo-image div {
-    margin: 4rem;
+    width: 100%;
     border-radius: 1rem;
-    margin-right: 24rem;
     padding: 4rem;
     font-size: 2rem;
     color: white;
-    background: rgba(15, 15, 15, .8);
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+#header-avatar img {
+    width: 8rem;
+}
+
+.main-blob {
+    overflow: hidden;
+    border-radius: 1rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-blob a {
+    height: 32rem;
+    display: flex;
+    padding: 0;
+    text-decoration: none;
+    width: 100%;
+    align-items: end;
+    justify-content: stretch;
+    justify-items: stretch;
+}
+
+.main-blob a div {
+    font-size: 1.5rem;
+    color: white;
+    /* background: rgba(15, 15, 15, .8); */
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    /* margin-right: 8rem; */
+    padding: 2rem;
+    /* border-radius: 1rem; */
+    width: 100%;
+}
+
+#about-blob {
+    background-image: url(/assets/images/about.jpeg);
+}
+
+#privacy-blob {
+    background-image: url(/assets/images/shield2.jpeg);
+}
+
+#professionals-blob {
+    background-image: url(/assets/images/library.jpeg);
+}
+
+.thesis {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem 4rem;
 }
