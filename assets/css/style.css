@@ -98,3 +98,20 @@ body {
     font-size: 2rem;
     padding: 1rem 4rem;
 }
+
+#creds .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#creds img {
+    margin: 5rem 0;
+    mix-blend-mode: multiply;
+    width: 4rem;
+}
+
+#creds img.comptia {
+    width: 5rem;
+}
