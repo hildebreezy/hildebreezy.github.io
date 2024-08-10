@@ -48,7 +48,7 @@ body {
 }
 
 #header-avatar img {
-    width: 8rem;
+    width: 6rem;
 }
 
 .main-blob {
@@ -113,5 +113,18 @@ body {
 }
 
 #creds img.comptia {
+    width: 5rem;
+}
+
+.certblock {
+    margin: 5rem;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.certblock img {
     width: 5rem;
 }
