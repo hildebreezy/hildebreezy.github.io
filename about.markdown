@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+pagesplash: /assets/images/about.jpeg
 ---
 
 Tanner Hildebrand is a Computer Engineer and Enterprise IT professional. He has been delivering value for supported organizations for over a decade. He cares about solving unique and interesting enterprise problems and personal digital security and privacy.

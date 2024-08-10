@@ -128,3 +128,24 @@ body {
 .certblock img {
     width: 5rem;
 }
+
+.pagesplash {
+    border-radius: 1rem;
+    overflow: hidden;
+    background-position: bottom left;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+.pagesplash h1 {
+    margin: 0;
+    margin-top: 4rem;
+    color: white;
+    padding: 2rem;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+.pagesplash img {
+    width: 100%;
+    height: 24rem;
+    object-fit: cover;
+}
