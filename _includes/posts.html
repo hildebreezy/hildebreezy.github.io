@@ -1,0 +1,14 @@
+<ul class="posts">
+    {% for post in include.posts %}
+      <li>
+        <h2><a href="{{ post.url }}">{{ post.title }} <span class="hidy-go">&raquo;</span></a></h2>
+        <p class="text-secondary">
+            {{ post.date | date_to_string }} by {{ post.author }}
+        </p>
+        {{ post.excerpt }}
+        <p>
+        <a href="{{ post.url }}">Read &raquo;</a>
+        </p>
+      </li>
+    {% endfor %}
+</ul>

@@ -2,22 +2,52 @@
 layout: default
 ---
 <div class="container">
-    <div class="row">
-        <div class="col-12">
+    <div class="row flex-lg-row flex-column">
+        <div class="col-2"></div>
+        <div class="col-lg-8 col pt-4">
             {% include header.html %}
         </div>
-    </div>
-    <div class="row">
-        <div class="col-12 my-4">
+        <div class="col-2"></div>
+        <div class="col-2"></div>
+        <div class="col-lg-8 col my-4">
             <h1>{{page.title}}</h1>
-        </div>
-        <div class="col-12">
-            {{content}}
-        </div>
-        <div class="col-12 my-5">
-            <p>
-            Delivering value for over a decade.
+            {% if page.subtitle %}
+            <p class="h5 text-secondary">
+                {{ page.subtitle }}
             </p>
+            {% endif %}
+            {% if page.author or page.date %}
+            <p class="text-secondary">
+                
+                {% if page.date %}
+                {{ page.date | date_to_string }}
+                {% endif %}
+
+                {% if page.author %}
+                by {{ page.author }}
+                {% endif %}
+            </p>
+            {% endif %}
+        </div>
+        <div class="col-2"></div>
+        <div class="col-2"></div>
+        <div class="col-lg-8 col page-content">
+            {{content}}
+
+            
+                
+            <p>
+                <small class="text-secondary">    
+                    last modified on 
+                    {{ page.last_modified_at | date: '%d %b %Y' }}
+                </small>
+            </p>
+        </div>
+        
+        <div class="col-2"></div>
+        <div class="col-2"></div>
+        <div class="col-lg-10 col my-5">
+            {% include footer.html %}
         </div>
     </div>
 </div>

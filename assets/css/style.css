@@ -149,3 +149,41 @@ body {
     height: 24rem;
     object-fit: cover;
 }
+
+ul.posts,
+ul.posts li
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.posts li h2 {
+    margin: inherit;
+}
+
+ul.posts li h2 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul.posts li h2 a .hidy-go {
+    visibility: hidden;
+}
+
+ul.posts li h2 a:hover .hidy-go {
+    visibility: visible;
+}
+
+.page-content h1,
+.page-content h2
+/*.page-content h3,
+.page-content h4,
+.page-content h5 */{
+    margin: 3rem 0 2rem 0;
+}
+
+.nolink {
+    text-decoration: none;
+    color: inherit;
+}

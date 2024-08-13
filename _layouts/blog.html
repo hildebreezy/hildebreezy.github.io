@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            {% include header.html %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 my-4">
+            <h1>{{page.title}}</h1>
+        </div>
+        <div class="col-12">
+            {{content}}
+        </div>
+        <div class="col-12 my-5">
+            {% include footer.html %}
+        </div>
+    </div>
+</div>
