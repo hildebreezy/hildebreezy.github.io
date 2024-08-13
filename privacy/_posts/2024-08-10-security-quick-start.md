@@ -66,17 +66,17 @@ Create and manage independant identities for each service your sign up for. In t
 ## Step Two - Understand and use Multi-factor authentication
 {: #step-two }
 
-Passwords are notoriously weak protection for your accounts for a variety of reasons. For one, using the same password for multiple accounts means that if one service improperly protects your password, all of your other accounts are vulnerable. For another, make a good, strong password can make the password difficult to remember.
+Passwords are notoriously weak protection for your accounts for a variety of reasons. For one, using the same password for multiple accounts means that if one service improperly protects your password, all of your other accounts are vulnerable. For another, a good, strong password can make the password difficult to remember.
 
 [See some ideas for tools to get your started.](#tools-two)
 
-I'll address passwords in the next section, but there is a more important step you can take to reduce the short comings of passwords by enabling multifactor authentication (MFA).
+I'll address passwords more in the next section, but there is a more important step you can take to reduce the short comings of passwords: enabling multifactor authentication (MFA).
 
 For our purposes, this means adding an additional verification step to account access that doesn't rely on a remembered password, but is instead dependant on a physical object that you control. This can come in a lot of forms: email address, phone number (via text message, e.g.), an app installed on your phone, or a physical security token.
 
 Not all of these options offer the same level of protection, but no matter what multi-factor authentication should be enabled on all services that support it. 
 
-Enabling multi-factor authentication means that your accounts cannot be compromised by passive exploitation - that is, if your password is stolen or if an attacker is just trying to brute force passwords on known account IDs, they won't be able to get in without your participation, which for many cases will be too much of an effort for most attackers.
+Enabling multi-factor authentication means that your accounts cannot be compromised by passive exploitation - that is, if your password is stolen or if an attacker is just trying to brute force passwords on known account IDs, they won't be able to get in without your participation. For many cases will make exploiting your account too much of an effort for attackers.
 
 ### Basic protection
 
@@ -86,7 +86,7 @@ If you lose your phone, likely your carrier can restore your phone number to you
 
 Email multi-factor authentication can be a bit touchy, as it is possible to lock yourself out of this MFA capability which would put you in a deadlock for all of your other accounts. It is better than nothing, but risky.
 
-Both SMS and email are susceptible to phishing, or scamming for a persistent and clever scammer. There are well developed scams for tricking you into revealing your MFA code and to create an illicit session into one of your accounts. Again, it is better than nothing but you will need to be warry of scam attempts to access your account and NEVER provide your multi-factor code to any unauthenticated source.
+Both SMS and email are susceptible to compromise via phishing or scamming given a persistent and clever scammer. There are well developed scams for tricking you into revealing your MFA code and to create an illicit session into one of your accounts. Again, it is better than nothing but you will need to be warry of scam attempts to access your account and NEVER provide your multi-factor code to any unauthenticated source.
 
 ### Intermediate protection
 
@@ -137,7 +137,7 @@ A password manager generates a strong, very secure password using a long string 
 
 There are multiple ways to unlock these password databases, the simplest mechanism is with another password - if you choose the password method, you should choose a password that is long, strong, but easy to remember. 
 
-[Some tips on generating a strong password.](#)
+[Some tips on generating a strong password.](https://www.isaca.org/resources/isaca-journal/issues/2019/volume-1/nists-new-password-rule-book-updated-guidelines-offer-benefits-and-risk)
 
 Another option for some databases is to use biometrics or physical security keys to unlock your password database.
 
